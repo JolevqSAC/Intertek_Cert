@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE44504D-5D66-4C90-92F2-87FA1BDCD05D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Intertek.DataAccess</RootNamespace>
+    <AssemblyName>Intertek.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaDAL.cs" />
+    <Compile Include="CargosDAL.cs" />
+    <Compile Include="CategoriaProductoDAL.cs" />
+    <Compile Include="CentroCostoDAL.cs" />
+    <Compile Include="ClienteDAL.cs" />
+    <Compile Include="ContactoClienteDAL.cs" />
+    <Compile Include="ContactoProveedorDAL.cs" />
+    <Compile Include="ContratoDAL.cs" />
+    <Compile Include="DepartamentoDAL.cs" />
+    <Compile Include="DireccionProveedorDAL.cs" />
+    <Compile Include="DistritoDAL.cs" />
+    <Compile Include="NotaDAL.cs" />
+    <Compile Include="EnsayoDAL.cs" />
+    <Compile Include="EstadoDAL.cs" />
+    <Compile Include="LaboratorioDAL.cs" />
+    <Compile Include="LugarMuestreoDAL.cs" />
+    <Compile Include="MetodoDAL.cs" />
+    <Compile Include="NormaLimiteDAL.cs" />
+    <Compile Include="NormaMuestreoDAL.cs" />
+    <Compile Include="NormaProductoDAL.cs" />
+    <Compile Include="NormaRequisitoDAL.cs" />
+    <Compile Include="PaisDAL.cs" />
+    <Compile Include="PersonalDAL.cs" />
+    <Compile Include="ProductoDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProveedorDAL.cs" />
+    <Compile Include="ProvinciaDAL.cs" />
+    <Compile Include="DireccionClienteDAL.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\ObjectContextExtension.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="RolDAL.cs" />
+    <Compile Include="RolOpcionSistemaDAL.cs" />
+    <Compile Include="ServicioDAL.cs" />
+    <Compile Include="SubEnsayoDAL.cs" />
+    <Compile Include="TipoEnvaseDAL.cs" />
+    <Compile Include="TipoLaboratorioDAL.cs" />
+    <Compile Include="UnidadMedidaDAL.cs" />
+    <Compile Include="UsuarioDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business Layer\Intertec.Business.Entities\Intertek.Business.Entities.csproj">
+      <Project>{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8}</Project>
+      <Name>Intertek.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business Layer\Intertec.Helpers\Intertek.Helpers.csproj">
+      <Project>{A5860AF2-C078-4B65-85AE-F19A6F535CC7}</Project>
+      <Name>Intertek.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FAF22F0-F30A-4DF1-91FF-8033C77ED885}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Intertec.WEB</RootNamespace>
+    <AssemblyName>Intertec.WEB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Librerias\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BuscarCliente.aspx" />
+    <Content Include="ClienteEliminadoCorrectamente.aspx" />
+    <Content Include="ClienteModificadoCorrectamente.aspx" />
+    <Content Include="ClienteRegistradoCorrectamente.aspx" />
+    <Content Include="errorStatus.aspx" />
+    <Content Include="expiroSession.aspx" />
+    <Content Include="img\arrow_modify.gif" />
+    <Content Include="img\btnanadir.png" />
+    <Content Include="img\btnanular.png" />
+    <Content Include="img\btnanularcompra.png" />
+    <Content Include="img\btnbuscar.png" />
+    <Content Include="img\btncancelar.png" />
+    <Content Include="img\btncerraralert.png" />
+    <Content Include="img\btnConfirmarRecepcion.png" />
+    <Content Include="img\btndeshacer.png" />
+    <Content Include="img\btneagregar.png" />
+    <Content Include="img\btneliminar.png" />
+    <Content Include="img\btnenviaralmacen.png" />
+    <Content Include="img\btngenerar.png" />
+    <Content Include="img\btngrabar.png" />
+    <Content Include="img\btnimprimir.png" />
+    <Content Include="img\btnlimpiar.png" />
+    <Content Include="img\btnlogin.png" />
+    <Content Include="img\btnmdificar.png" />
+    <Content Include="img\btnmodificar.png" />
+    <Content Include="img\btnmostrar.png" />
+    <Content Include="img\btnno.png" />
+    <Content Include="img\btnnuevo.png" />
+    <Content Include="img\btnquitar.png" />
+    <Content Include="img\btnregistrarNuevaSC.png" />
+    <Content Include="img\btnsi.png" />
+    <Content Include="img\btnSIM.png" />
+    <Content Include="img\btnver.png" />
+    <Content Include="img\cerrarsesion.png" />
+    <Content Include="img\editar.png" />
+    <Content Include="img\etiq1.png" />
+    <Content Include="img\etiq2.png" />
+    <Content Include="img\etiq3.png" />
+    <Content Include="img\etiq4.png" />
+    <Content Include="img\etiq5.png" />
+    <Content Include="img\fnd.header.png" />
+    <Content Include="img\fndalertaquestion.png" />
+    <Content Include="img\fndalertas.png" />
+    <Content Include="img\fnderror.png" />
+    <Content Include="img\fndheadertable.png" />
+    <Content Include="img\fndhovermenu.png" />
+    <Content Include="img\fndLogin.png" />
+    <Content Include="img\fndLoginbase.png" />
+    <Content Include="img\fndstaticmenu.png" />
+    <Content Include="img\generaexcel.png" />
+    <Content Include="img\generarpdf.png" />
+    <Content Include="img\imgcotizacion.png" />
+    <Content Include="img\imgsolicitud.png" />
+    <Content Include="img\logointertek.png" />
+    <Content Include="img\nuevoheadertable.png" />
+    <Content Include="img\quitar.png" />
+    <Content Include="inicio.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Mantenimiento\cargos.aspx" />
+    <Content Include="Mantenimiento\cargosBuscar.aspx" />
+    <Content Include="Mantenimiento\centroCostos.aspx" />
+    <Content Include="Mantenimiento\centroCostosBuscar.aspx" />
+<<<<<<< HEAD
+    <Content Include="Mantenimiento\personal.aspx" />
+    <Content Include="Mantenimiento\personalBuscar.aspx" />
+=======
+    <Content Include="Mantenimiento\comentario.aspx" />
+    <Content Include="Mantenimiento\comentarioBuscar.aspx" />
+    <Content Include="Mantenimiento\estado.aspx" />
+    <Content Include="Mantenimiento\estadoBuscar.aspx" />
+>>>>>>> 409271feda7e1f26442508bffa016656132a72a6
+    <Content Include="Mantenimiento\unidadMedida.aspx" />
+    <Content Include="Mantenimiento\unidadMedidaBuscar.aspx" />
+    <Content Include="ModificarCliente.aspx" />
+    <Content Include="Pruebas.aspx" />
+    <Content Include="RegistrarCliente.aspx" />
+    <Content Include="Scripts\funcGlobales.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-ui-1.9.0.custom.js" />
+    <Content Include="Seguridad\opcionesRol.aspx" />
+    <Content Include="Seguridad\opcionRolBuscar.aspx" />
+    <Content Include="Seguridad\roles.aspx" />
+    <Content Include="Seguridad\rolesBuscar.aspx" />
+    <Content Include="Styles\Alertas.css" />
+    <Content Include="Styles\desarrollo.css" />
+    <Content Include="Styles\master.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\generales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>generales.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarCliente.aspx.cs">
+      <DependentUpon>BuscarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuscarCliente.aspx.designer.cs">
+      <DependentUpon>BuscarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteEliminadoCorrectamente.aspx.cs">
+      <DependentUpon>ClienteEliminadoCorrectamente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClienteEliminadoCorrectamente.aspx.designer.cs">
+      <DependentUpon>ClienteEliminadoCorrectamente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteModificadoCorrectamente.aspx.cs">
+      <DependentUpon>ClienteModificadoCorrectamente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClienteModificadoCorrectamente.aspx.designer.cs">
+      <DependentUpon>ClienteModificadoCorrectamente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteRegistradoCorrectamente.aspx.cs">
+      <DependentUpon>ClienteRegistradoCorrectamente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClienteRegistradoCorrectamente.aspx.designer.cs">
+      <DependentUpon>ClienteRegistradoCorrectamente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\PaginaBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorStatus.aspx.cs">
+      <DependentUpon>errorStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="errorStatus.aspx.designer.cs">
+      <DependentUpon>errorStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="expiroSession.aspx.cs">
+      <DependentUpon>expiroSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="expiroSession.aspx.designer.cs">
+      <DependentUpon>expiroSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.aspx.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inicio.aspx.designer.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\cargos.aspx.cs">
+      <DependentUpon>cargos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\cargos.aspx.designer.cs">
+      <DependentUpon>cargos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\cargosBuscar.aspx.cs">
+      <DependentUpon>cargosBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\cargosBuscar.aspx.designer.cs">
+      <DependentUpon>cargosBuscar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\centroCostos.aspx.cs">
+      <DependentUpon>centroCostos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\centroCostos.aspx.designer.cs">
+      <DependentUpon>centroCostos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\centroCostosBuscar.aspx.cs">
+      <DependentUpon>centroCostosBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\centroCostosBuscar.aspx.designer.cs">
+      <DependentUpon>centroCostosBuscar.aspx</DependentUpon>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Include="Mantenimiento\personal.aspx.cs">
+      <DependentUpon>personal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\personal.aspx.designer.cs">
+      <DependentUpon>personal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\personalBuscar.aspx.cs">
+      <DependentUpon>personalBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\personalBuscar.aspx.designer.cs">
+      <DependentUpon>personalBuscar.aspx</DependentUpon>
+=======
+    <Compile Include="Mantenimiento\comentario.aspx.cs">
+      <DependentUpon>comentario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\comentario.aspx.designer.cs">
+      <DependentUpon>comentario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\comentarioBuscar.aspx.cs">
+      <DependentUpon>comentarioBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\comentarioBuscar.aspx.designer.cs">
+      <DependentUpon>comentarioBuscar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\estado.aspx.cs">
+      <DependentUpon>estado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\estado.aspx.designer.cs">
+      <DependentUpon>estado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\estadoBuscar.aspx.cs">
+      <DependentUpon>estadoBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\estadoBuscar.aspx.designer.cs">
+      <DependentUpon>estadoBuscar.aspx</DependentUpon>
+>>>>>>> 409271feda7e1f26442508bffa016656132a72a6
+    </Compile>
+    <Compile Include="Mantenimiento\unidadMedida.aspx.cs">
+      <DependentUpon>unidadMedida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\unidadMedida.aspx.designer.cs">
+      <DependentUpon>unidadMedida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\unidadMedidaBuscar.aspx.cs">
+      <DependentUpon>unidadMedidaBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\unidadMedidaBuscar.aspx.designer.cs">
+      <DependentUpon>unidadMedidaBuscar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarCliente.aspx.cs">
+      <DependentUpon>ModificarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarCliente.aspx.designer.cs">
+      <DependentUpon>ModificarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pruebas.aspx.cs">
+      <DependentUpon>Pruebas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pruebas.aspx.designer.cs">
+      <DependentUpon>Pruebas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarCliente.aspx.cs">
+      <DependentUpon>RegistrarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarCliente.aspx.designer.cs">
+      <DependentUpon>RegistrarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\opcionesRol.aspx.cs">
+      <DependentUpon>opcionesRol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\opcionesRol.aspx.designer.cs">
+      <DependentUpon>opcionesRol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\opcionRolBuscar.aspx.cs">
+      <DependentUpon>opcionRolBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\opcionRolBuscar.aspx.designer.cs">
+      <DependentUpon>opcionRolBuscar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\roles.aspx.cs">
+      <DependentUpon>roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\roles.aspx.designer.cs">
+      <DependentUpon>roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\rolesBuscar.aspx.cs">
+      <DependentUpon>rolesBuscar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\rolesBuscar.aspx.designer.cs">
+      <DependentUpon>rolesBuscar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Librerias\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business Layer\Intertec.Business.Entities\Intertec.Business.Entities.csproj">
+      <Project>{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8}</Project>
+      <Name>Intertec.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business Layer\Intertec.Business.Logic\Intertec.Business.Logic.csproj">
+      <Project>{13FA0F83-B244-4D80-9BD5-94827B2B1253}</Project>
+      <Name>Intertec.Business.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business Layer\Intertec.Helpers\Intertec.Helpers.csproj">
+      <Project>{A5860AF2-C078-4B65-85AE-F19A6F535CC7}</Project>
+      <Name>Intertec.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\cargos.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\generales.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>generales.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\cargos.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\errorStatus.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\errorStatus.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\expiroSession.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\expiroSession.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Tema\Skin1.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Seguridad\App_LocalResources\opcionesRol.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Seguridad\App_LocalResources\opcionRolBuscar.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\centroCostosBuscar.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\centroCostosBuscar.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\unidadMedidaBuscar.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\unidadMedidaBuscar.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\unidadMedida.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\unidadMedida.aspx.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\centroCostos.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mantenimiento\App_LocalResources\centroCostos.aspx.en-US.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9849</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

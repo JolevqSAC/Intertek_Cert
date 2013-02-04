@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intertek.Business.Entities", "Source\Business Layer\Intertec.Business.Entities\Intertek.Business.Entities.csproj", "{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intertek.Business.Logic", "Source\Business Layer\Intertec.Business.Logic\Intertek.Business.Logic.csproj", "{13FA0F83-B244-4D80-9BD5-94827B2B1253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{462B2EF4-05DF-4943-9E74-5037A1F93389}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{A26BF091-AC1A-48D1-8769-6E0609B3215A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{75C9EDE9-A059-48FC-847F-D1638E94C76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intertek.Helpers", "Source\Business Layer\Intertec.Helpers\Intertek.Helpers.csproj", "{A5860AF2-C078-4B65-85AE-F19A6F535CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intertek.WEB", "Source\Presentation Layer\Intertec.WEB\Intertek.WEB.csproj", "{2FAF22F0-F30A-4DF1-91FF-8033C77ED885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intertek.DataAccess", "Source\Data Access Layer\Intertec.DataAccess\Intertek.DataAccess.csproj", "{EE44504D-5D66-4C90-92F2-87FA1BDCD05D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FA0F83-B244-4D80-9BD5-94827B2B1253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FA0F83-B244-4D80-9BD5-94827B2B1253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FA0F83-B244-4D80-9BD5-94827B2B1253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FA0F83-B244-4D80-9BD5-94827B2B1253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5860AF2-C078-4B65-85AE-F19A6F535CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5860AF2-C078-4B65-85AE-F19A6F535CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5860AF2-C078-4B65-85AE-F19A6F535CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5860AF2-C078-4B65-85AE-F19A6F535CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAF22F0-F30A-4DF1-91FF-8033C77ED885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAF22F0-F30A-4DF1-91FF-8033C77ED885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAF22F0-F30A-4DF1-91FF-8033C77ED885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAF22F0-F30A-4DF1-91FF-8033C77ED885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE44504D-5D66-4C90-92F2-87FA1BDCD05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE44504D-5D66-4C90-92F2-87FA1BDCD05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE44504D-5D66-4C90-92F2-87FA1BDCD05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE44504D-5D66-4C90-92F2-87FA1BDCD05D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13FA0F83-B244-4D80-9BD5-94827B2B1253} = {462B2EF4-05DF-4943-9E74-5037A1F93389}
+		{4A0BD438-B339-4AD9-BBE7-58B6E0AB68C8} = {462B2EF4-05DF-4943-9E74-5037A1F93389}
+		{A5860AF2-C078-4B65-85AE-F19A6F535CC7} = {462B2EF4-05DF-4943-9E74-5037A1F93389}
+		{EE44504D-5D66-4C90-92F2-87FA1BDCD05D} = {75C9EDE9-A059-48FC-847F-D1638E94C76F}
+		{2FAF22F0-F30A-4DF1-91FF-8033C77ED885} = {A26BF091-AC1A-48D1-8769-6E0609B3215A}
+	EndGlobalSection
+EndGlobal

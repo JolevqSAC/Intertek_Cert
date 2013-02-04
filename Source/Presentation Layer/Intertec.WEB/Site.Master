@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Intertek.WEB.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Intertek</title>
+    <link href="Styles/master.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Alertas.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/desarrollo.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/ui-lightness/jquery-ui-1.9.0.custom.css" rel="stylesheet" type="text/css" />
+  
+    
+</head>
+<body>
+ <script src="<%=Intertek.Helpers.Utils.AbsoluteWebRoot%>Scripts/jquery-1.8.2.js" type="text/javascript"></script>
+  <script src="<%=Intertek.Helpers.Utils.AbsoluteWebRoot%>Scripts/jquery-ui-1.9.0.custom.js" type="text/javascript"></script>
+   <script src="<%=Intertek.Helpers.Utils.AbsoluteWebRoot%>Scripts/funcGlobales.js?V1" type="text/javascript"></script>
+
+    <form id="form1" runat="server">
+      <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+      
+    </asp:ContentPlaceHolder>
+    <div>
+        <div id="header">
+        <div class="logointertek"></div>
+        <div class="conteopciones">
+        <div class="cierresesion">
+            <strong>
+            <asp:label runat="server" ID="lblIdioma" Text="Idioma" CssClass="idioma" 
+                meta:resourcekey="lblIdiomaResource1"></asp:label> 
+            </strong>
+                <asp:DropDownList ID="ddlIdiomas" runat="server" ClientIDMode="Static" 
+                    AutoPostBack="True" 
+                onselectedindexchanged="ddlIdiomas_SelectedIndexChanged" CssClass="bordeimput" 
+                meta:resourcekey="ddlIdiomasResource1">
+                <asp:ListItem Value="es-PE" Text="Español" meta:resourcekey="ListItemResource1"></asp:ListItem>
+                <asp:ListItem Value="en-US" Text="English" meta:resourcekey="ListItemResource2"></asp:ListItem>
+                </asp:DropDownList> 
+           
+        <asp:Button ID="btnCerrarSesion" runat="server" class="imgcierre" 
+                Text="Cerrar Sesión" onclick="btnCerrarSesion_Click" 
+                CausesValidation="False" UseSubmitBehavior="False" 
+                meta:resourcekey="btnCerrarSesionResource1" />
+        </div>
+        <div class="cierresesion1"><p><strong><asp:label runat="server" 
+                ID="lblUsuarioLogeado" Text="USUARIO: " 
+                meta:resourcekey="lblUsuarioLogeadoResource1"></asp:label></strong>
+                <asp:label runat="server" ID="lblnombreusuario"></asp:label>
+               <%-- <%=nombreUsuarioLogeado %>--%>
+                </p></div>
+        <div class="cierresesion1"><p><strong><asp:label runat="server" ID="lblUltConexion" 
+                Text="ÚLTIMA CONEXIÓN: " meta:resourcekey="lblUltConexionResource1"></asp:label></strong><%=DateTime.Now.ToString() %></p></div>
+        </div>
+        </div>
+       <div id="menu" style="width:960px; margin:0 auto 0 auto; /*background-color:#DBDBDB;*/ height:28px; background-image:url(<%=Intertek.Helpers.Utils.AbsoluteWebRoot%>img/fndstaticmenu.png)">
+            <asp:Menu ID="mnuPrincipal" runat="server" RenderingMode="List" CssClass="menu" 
+                Orientation="Horizontal" StaticMenuStyle-CssClass="staticMenu" 
+                ViewStateMode="Disabled" StaticPopOutImageUrl="~/img/arrow_modify.gif" 
+                meta:resourcekey="mnuPrincipalResource1">
+               <StaticMenuItemStyle CssClass="menufiltro" />
+            </asp:Menu>
+            
+        </div>
+        
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

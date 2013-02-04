@@ -1,0 +1,111 @@
+﻿body
+{background-color:#EEF3FA; margin-top:0px;}
+
+/*__cabecera__*/
+
+#header{width:960px;height:100px;margin:0 auto 0 auto;background-image:url("../img/fnd.header.png");}
+
+.logointertek{width:360px;height:100px;float:left;background-image:url("../img/logointertek.png");}
+
+.conteopciones{width:330px;height:100px;float:right; margin-right:29px;}
+
+.cierresesion{ width:330px; height:25px; float:left; margin-bottom:16px;}
+.idioma{font-family:Verdana, Geneva, sans-serif; color:#ffffff; font-size:12px; text-align:left;margin:0px; margin-right:0px;}
+
+.cierresesion1 p{font-family:Verdana, Geneva, sans-serif; color:#ffffff; font-size:12px; margin:0px; text-align:right; margin-right:2px;}
+
+
+.imgcierre{ border:0px;background-image:url("../img/cerrarsesion.png"); background-color:Transparent; width:110px; height:25px; cursor:pointer; float:right;
+            font-family:Arial, Helvetica, sans-serif; color:#ffffff; font-size:12px; text-decoration:underline; margin-right:2px;}
+
+/*__login_intertek__*/
+
+.contelogin{ width:960px; height:442px; background-image:url("../img/fndLogin.png"); margin: 0 auto 0 auto; margin-top:100px;}
+.loginbase{ width:419px; height:442px; margin: 0 auto 0 auto; background-image:url("../img/fndLoginbase.png");}
+.conte1{ width:419px; height:116px; margin-top:208px; float:left;}
+.conte2{ width:348px; height:116px; margin: 0 auto 0 auto;}
+
+.bar1{ width:348px; height:32px; margin-bottom:10px;}
+.bar2{ width:348px; height:32px;}
+
+.log1{ width:96px; height:32px; float:left;}
+.log1 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:14px; margin:0px; font-weight:normal; margin-top:6px; margin-left:6px;}
+.log2{ width:252px; height:32px; float:left;}
+
+.cuadrologin{ width:102px; height:32px; float:right; margin-right:6px;}
+.btnlogin{ height:32px; border: 0px; cursor: pointer; width:102px; background-image:url("../img/btnlogin.png"); background-color:Transparent;
+           font-family:Verdana, Geneva, sans-serif; color:#ffffff; font-size:14px; font-weight:bold;}
+
+.bordeimputlogin{ border: 1px solid #A5ACB2; font-family:Verdana, Geneva, sans-serif; font-size:12px; padding-left:4px;}
+
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    
+    width:100%;
+}
+
+div.menu
+{
+    /*padding: 4px 0px 4px 8px;*/
+    padding:0px;
+    
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-image:url("../img/fndstaticmenu.png");
+    /*background-color:#E9E9E9;*/
+    /*border: 1px #4e667d solid;*/
+    color: #013066;
+    display: block;
+    line-height:20px;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size:13px;
+    font-family:tahoma;
+    margin: 0 0 1px 0;
+}
+
+div.menu ul li a:hover
+{
+
+    color: /*#465c71*/ #013066;
+    text-decoration: none;
+    background-image:url("../img/fndhovermenu.png");
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: /*#cfdbe6*/ white;
+    text-decoration: none;
+}
+
+        .menufiltro
+        {
+            padding-left:14px !important;
+            position:relative;   
+            margin:0px; 
+            
+        }
+        
+         .staticMenu
+    {
+        background-image:url("../img/fndstaticmenu.png");
+        height:28px;
+        }

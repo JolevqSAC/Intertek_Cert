@@ -1,0 +1,574 @@
+﻿.contentgeneral{ width:960px; height:auto; margin: 0 auto 0 auto;}
+
+.titulo1{ width:960px; height:25px; margin-top:37px; margin-bottom:5px;}
+.titulo2{ width:903px; height:25px; margin:0 auto 0 auto;}
+
+.ti1{ width:760px; height:25px; float:left;}
+.ti1 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:16px; margin:0px; font-weight:bold; margin-top:4px;}
+.ti2{ width:143px; height:25px; float:left;}
+.ti2 p{ font-family:Verdana, Geneva, sans-serif; color:#FF0000; font-size:12px; margin:0px; font-weight:normal; margin-top:5px;}
+
+.conteradio{ width:960px; height:auto; float:left;}
+.conteradio1{ width:903px; height:auto; margin: 0 auto 0 auto; border: 1px solid #6886C1; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; background-color:#F9F9F9;}
+
+.conteradio2{ width:903px; height:auto; margin: 0 auto 0 auto; border: 1px solid #6886C1; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; margin-top:10px;  background-color:#F9F9F9;}
+
+.conteradio3{ width:903px; height:auto; margin: 0 auto 0 auto;}
+
+.conteradio4{ width:204px; height:auto; float:left; border: 1px solid #6886C1; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; background-color:#F9F9F9;}
+
+.conteradio5{ width:223px; height:auto; float:left; border: 1px solid #6886C1; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; background-color:#F9F9F9;}
+
+.conteradio6{ width:225px; height:auto; float:left; border: 1px solid #6886C1; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; background-color:#F9F9F9;}
+
+.conteradio7{ width:225px; height:auto; float:left; border: 1px solid #6886C1; margin-left:9px; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; background-color:#F9F9F9;}
+
+.conteradio8{ width:421px; height:auto; float:left; border: 1px solid #6886C1; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; background-color:#F9F9F9;}
+
+.conteradio9{ width:903px; height:auto; margin: 0 auto 0 auto; border: 1px solid #6886C1; 
+              -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px; background-color:#F9F9F9;}
+
+
+.bar1{ width:903px; height:27px; float:left; margin-top:13px; margin-bottom:10px;}
+.bar1uno{ width:903px; height:27px; float:left; margin-top:13px; margin-bottom:10px;}
+.bar1uno p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.bar1adi{ width:421px; height:27px; float:left; margin-top:13px; margin-bottom:10px;}
+.bar2{ width:903px; height:27px; float:left; margin-bottom:10px;}
+.bar2Auto{ width:903px; height:auto; float:left; margin-bottom:10px;}
+.bar2adi{ width:421px; height:27px; float:left; margin-bottom:10px;}
+.bar3{ width:903px; height:82px; float:left; margin-bottom:10px;}
+.bar4{ width:960px; height:24px; float:left; margin-bottom:10px; margin-top:10px;}
+.bar4novo{ width:903px; height:24px; float:left; margin-bottom:10px; margin-top:0px;}
+.bar4dentro{ width:178px; height:24px; margin:0 auto 0 auto; margin-bottom:10px;}
+.bar4tres{ width:270px; height:24px; margin:0 auto 0 auto;}
+.bar4tresili{ width:365px; 
+height:24px; margin:0 auto 0 auto;
+}
+.bar4cuatro{ width:363px; height:24px; margin:0 auto 0 auto;}
+.bar4cinco{ width:250px; height:24px; margin:0 auto 0 auto;}
+.bar4seis{ width:86px; height:24px; margin:0 auto 0 auto;}
+.bar4solo{ width:157px; height:24px; margin:0 auto 0 auto;}
+.bar4siete{ width:343px; height:24px; margin:0 auto 0 auto;}
+.bar4ocho{ width:217px; height:24px; margin:0 auto 0 auto;}
+.bar4nueve{ width:230px; height:24px; margin:0 auto 0 auto;}
+.bar5{ width:903px; height:auto; float:left; margin-bottom:10px; margin-top:10px;}
+.bar5option{ width:903px; height:auto; float:left; margin-bottom:10px;}
+.bar5option2{ width:903px; height:36px; float:left; margin-bottom:10px;}
+.bar6{ width:889px; height:auto; float:left; margin-bottom:10px; padding-right:14px}
+.bar7{ width:205px; height:27px; float:left; margin-top:13px; margin-bottom:10px;}
+.bar7s{ width:225px; height:27px; float:left; margin-top:13px; margin-bottom:10px;}
+.bar8{ width:903px; height:39px; float:left; margin-bottom:10px;}
+.bar9{ width:223px; height:27px; float:left; margin-top:13px; margin-bottom:10px;}
+.bar10{ width:903px; height:auto; float:left; margin-bottom:10px;}
+.bar11{ width:903px; height:auto; float:left; margin-bottom:10px;}
+
+.separa{ width:960px; height:auto; float:left; margin-bottom:10px; margin-top:10px;}
+
+.line1{ width:113px; height:27px; float:left;}
+.line1 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line2{ width:394px; height:27px; float:left;}
+.line3{ width:24px; height:19px;float:left; margin-right:5px;}
+.line3 p{ font-family:Verdana, Geneva, sans-serif; color:#FF0000; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:6px;}
+.line4{ width:62px; height:27px; float:left;}
+.line4 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line5{ width:286px; height:27px; float:left;}
+
+.line6{ width:62px; height:27px; float:left; margin-left:30px;}
+.line6 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line7{ width:122px; height:27px; float:left;}
+.line8{ width:42px; height:27px; float:left;}
+.line8 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+
+.line9{ width:220px; height:27px; float:left;}
+.line9 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line10{ width:287px; height:27px; float:left;}
+.line11{ width:130px; height:27px; float:left;}
+.line11 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line12{ width:212px; height:27px; float:left;}
+.line13{ width:90px; height:27px; float:left; margin-right:5px; margin-left:105px;}
+.line13 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line14{ width:90px; height:27px; float:left;}
+.line14 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line15{ width:101px; height:27px; float:left; margin-left:17px;}
+.line15 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+
+.line16{ width:285px; height:27px; float:left;}
+.line16 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line17{ width:260px; height:27px; float:left; margin-right:5px;}
+.line18{ width:155px; height:27px; float:left;}
+.line18 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+
+.line19{ width:48px; height:27px; float:left;}
+.line19 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line20{ width:138px; height:27px; float:left; margin-left:26px;}
+.line20 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line21{ width:120px; height:27px; float:left; margin-left:10px; margin-right:4px;}
+.line22{ width:155px; height:82px; float:left;}
+.line22 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line23{ width:390px; height:82px; float:left;}
+
+.line24{ width:77px; height:27px; float:left;}
+.line24 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line25{ width:236px; height:27px; float:left;}
+.line26{ width:470px; height:27px; float:left;}
+.line27{ width:66px; height:27px; float:left; margin-left:8px;}
+.line27 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line28{ width:114px; height:27px; float:left; margin-left:8px;}
+.line28 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line29{ width:225px; height:27px; float:left;}
+.line30{ width:36px; height:27px; float:left; margin-left:5px;}
+.line30 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:5px;}
+.line31{ width:92px; height:27px; float:left;}
+.line32{ width:177px; height:27px; float:left;}
+
+.line33{ width:177px; height:27px; float:left;}
+.line33 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line34{ width:705px; height:27px; float:left;}
+.line35{ width:160px; height:27px; float:left;}
+.line36{ width:97px; height:27px; float:left;}
+.line36 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line37{ width:448px; height:27px; float:left;}
+.line38{ width:50px; height:27px; float:left;}
+.line38 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line39{ width:104px; height:27px; float:left;}
+.line40{ width:87px; height:27px; float:left; margin-left:10px;}
+.line40 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line41{ width:92px; height:27px; float:left; margin-left:15px;}
+.line41 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line42{ width:40px; height:27px; float:left; margin-left:5px;}
+.line43{ width:33px; height:27px; float:left;}
+.line43 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line44{ width:270px; height:27px; float:left;}
+.line44 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line45{ width:361px; height:27px; float:left; margin-left:5px;}
+
+.line46{ width:294px; height:27px; float:left;}
+.line46 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line47{ width:95px; height:27px; float:left;}
+.line48{ width:25px; height:19px;float:left;}
+.line48 p{ font-family:Verdana, Geneva, sans-serif; color:#FF0000; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:6px;}
+.line49{ width:166px; height:27px; float:left;}
+.line49 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line50{ width:218px; height:27px; float:left;}
+.line51{ width:294px; height:39px; float:left;}
+.line51 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line52{ width:166px; height:39px; float:left;}
+.line52 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line53{ width:175px; height:27px; float:left;}
+.line53 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line54{ width:16px; height:27px; float:left;}
+.line55{ width:138px; height:27px; float:left;}
+.line55 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line56{ width:170px; height:27px; float:left;}
+.line56 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line57{ width:88px; height:27px; float:left;}
+.line57 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line58{ width:271px; height:27px; float:left;}
+.line58 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line59{ width:42px; height:27px; float:left;}
+.line59 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line60{ width:34px; height:27px; float:left; margin-left:5px;}
+.line61{ width:175px; height:82px; float:left;}
+.line61 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line62{ width:98px; height:27px; float:left;}
+.line62 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+
+.line63{ width:130px; height:27px; float:left;}
+.line63 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line64{ width:115px; height:27px; float:left;}
+.line65{ width:215px; height:27px; float:left;}
+.line65 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line66{ width:574px; height:82px; float:left;}
+.line67{ width:150px; height:27px; float:left;}
+.line67 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line68{ width:198px; height:27px; float:left;}
+.line69{ width:75px; height:27px; float:left; margin-left:29px;}
+.line69 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line70{ width:269px; height:27px; float:left;}
+.line71{ width:250px; height:27px; float:left; margin-left:29px;}
+.line71 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line72{ width:94px; height:27px; float:left;}
+.line73{ width:48px; height:27px; float:left;}
+.line73 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line74{ width:150px; height:27px; float:left;}
+.line75{ width:50px; height:27px; float:left;}
+.line75 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line76{ width:37px; height:27px; float:left;}
+.line76 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:2px;}
+.line77{ width:62px; height:27px; float:left;}
+.line78{ width:49px; height:27px; float:left; margin-left:10px;}
+.line78 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line79{ width:77px; height:27px; float:left;}
+.line81{ width:81px; height:27px; float:left; margin-left:10px;}
+.line81 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:0px;}
+.line82{ width:150px; height:82px; float:left;}
+.line82 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line83{ width:403px; height:82px; float:left;}
+.line84{ width:81px; height:27px; float:left;}
+.line84 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line85{ width:689px; height:27px; float:left;}
+.line86{ width:190px; height:52px; float:left;}
+.line86 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line87{ width:580px; height:52px; float:left;}
+.line88{ width:190px; height:27px; float:left;}
+.line88 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line89{ width:580px; height:27px; float:left;}
+.line90{ width:214px; height:27px; float:left;}
+.line91{ width:155px; height:27px; float:left; margin-left:17px;}
+.line91 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line92{ width:194px; height:27px; float:left;}
+.line93{ width:718px; 
+height:82px; float:left;
+}
+.line94{ width:155px; height:27px; float:left;}
+.line94 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line95{ width:155px; height:27px; float:left; margin-right:23px;}
+.line95 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line96{ width:80px; height:27px; float:left;}
+.line96 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line97{ width:688px; height:27px; float:left;}
+.line98{ width:80px; height:27px; float:left;}
+.line98 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line99{ width:401px; height:27px; float:left;}
+.line100{ width:147px; height:27px; float:left;}
+.line100 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line101{ width:123px; height:27px; float:left;}
+.line102{ width:200px; height:27px; float:left;}
+.line102 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line103{ width:576px; height:27px; float:left;}
+.line104{ width:219px; height:27px; float:left;}
+.line105{ width:185px; height:27px; float:left;}
+.line105 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line106{ width:147px; height:27px; float:left;}
+.line107{ width:135px; height:27px; float:left;}
+.line107 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line108{ width:222px; height:27px; float:left;}
+.line109{ width:160px; height:27px; float:left;}
+.line109 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line110{ width:142px; height:27px; float:left;}
+.line111{ width:40px; height:27px; float:left;}
+.line111 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line112{ width:27px; height:27px; float:left;}
+.line113{ width:175px; height:27px; float:left;}
+.line113 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line114{ width:337px; height:27px; float:left;}
+.line115{ width:162px; height:27px; float:left;}
+.line115 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line116{ width:137px; height:27px; float:left;}
+.line117{ width:661px; height:27px; float:left;}
+.line118{ width:135px; height:27px; float:left;}
+.line118 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line119{ width:205px; height:27px; float:left; margin-left:42px;}
+.line119 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line120{ width:112px; height:27px; float:left;}
+.line121{ width:175px; height:82px; float:left;}
+.line121 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line122{ width:661px; height:82px; float:left;}
+.line123{ width:335px; height:27px; float:left;}
+.line123 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line124{ width:190px; height:27px; float:left;}
+.line125{ width:421px; height:27px; float:left;}
+.line126{ width:71px; height:27px; float:left;}
+.line126 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line127{ width:144px; height:27px; float:left;}
+.line128{ width:84px; height:27px; float:left;}
+.line128 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line129{ width:160px; height:27px; float:left;}
+.line129 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line130{ width:226px; height:27px; float:left;}
+.line131{ width:98px; height:27px; float:left;}
+.line131 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line132{ width:115px; height:27px; float:left;}
+.line133{ width:125px; height:27px; float:left;}
+.line134{ width:195px; height:27px; float:left;}
+.line134 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line135{ width:684px; height:27px; float:left;}
+.line136{ width:105px; height:27px; float:left;}
+.line136 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line137{ width:233px; height:27px; float:left; margin-right:15px;}
+.line138{ width:95px; height:27px; float:left;}
+.line138 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line139{ width:112px; height:27px; float:left;}
+.line140{ width:95px; height:27px; float:left; margin-left:353px;}
+.line140 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line141{ width:337px; height:27px; float:left; margin-right:0px;}
+.line142{ width:417px; height:27px; float:left; margin-right:0px;}
+.line143{ width:95px; height:27px; float:left; margin-left:0px;}
+.line143 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line144{ width:42px; height:27px; float:left;}
+.line144 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line145{ width:35px; height:27px; float:left;}
+.line146{ width:68px; height:27px; float:left;}
+.line146 p{ font-family:Verdana, Geneva, sans-serif; color:#333333; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line147{ width:160px; height:27px; float:left;}
+.line147 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line148{ width:137px; height:27px; float:left;}
+.line149{ width:689px; height:27px; float:left;}
+.line150{ width:130px; height:27px; float:left;}
+.line150 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line151{ width:752px; height:27px; float:left;}
+.line152{ width:903px; height:27px; float:left;}
+.line152 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line153{ width:159px; height:27px; float:left;}
+.line153 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line154{ width:92px; height:27px; float:left;}
+.line155{ width:53px; height:27px; float:left; margin-left:14px;}
+.line155 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line156{ width:358px; height:27px; float:left;}
+.line157{ width:152px; height:27px; float:left; margin-left:14px;}
+.line157 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line158{ width:259px; height:27px; float:left;}
+.line159{ width:188px; height:27px; float:left;}
+.line159 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line160{ width:148px; height:27px; float:left;}
+.line161{ width:111px; height:27px; float:left; margin-left:7px;}
+.line161 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line162{ width:221px; height:27px; float:left;}
+.line163{ width:487px; height:27px; float:left;}
+.line164{ width:44px; height:27px; float:left; margin-left:8px;}
+.line164 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line165{ width:516px; height:27px; float:left;}
+.line166{ width:159px; height:82px; float:left;}
+.line166 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line167{ width:159px; height:75px; float:left;}
+.line167 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line168{ width:652px; height:75px; float:left;}
+.line169{ width:159px; height:36px; float:left;}
+.line169 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line170 {width:652px; height:36px; float:left;}
+
+.line171{ width:80px; height:27px; float:left;}
+.line171 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line172{ width:700px; height:27px; float:left;}
+.line173{ width:130px; 
+height:27px; float:left;
+}
+.line173 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line174{ width:120px; height:27px; float:left;}
+.line174 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line175{ width:726px; 
+height:24px; 
+float:left;
+}
+.line175Auto{ width:782px; height:auto; float:left;}
+.line176{ width:105px; height:27px; float:left;}
+.line177{ width:75px; height:27px; float:left; margin-left:10px;}
+.line177 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line177_2{ width:90px; height:27px; float:left; margin-left:10px;}
+.line177_2 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line178{ width:44px; height:27px; float:left; margin-left:10px;}
+.line178 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line179{ width:210px; height:27px; float:left;}
+.line180{ width:125px; height:27px; float:left; margin-left:10px;}
+.line180 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line181{ width:70px; height:27px; float:left; margin-left:10px;}
+.line181 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line182{ width:128px; 
+height:82px; float:left;
+}
+.line182 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line183{ width:135px; height:27px; float:left;}
+.line183 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line184{ width:276px; height:27px; float:left;}
+.line185{ width:138px; height:27px; float:left; margin-left:10px;}
+.line185 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line186{ width:125px; height:27px; float:left;}
+.line186 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line187{ width:80px; height:27px; float:left;}
+.line187 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line188{ width:514px; height:27px; float:left;}
+.line189{ width:125px; height:82px; float:left;}
+.line189 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line190{ width:699px; height:82px; float:left;}
+.line191{ width:100px; height:27px; float:left;}
+.line191 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line192{ width:135px; height:27px; float:left;}
+.line192 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line193{ width:135px; height:27px; float:left;}
+.line193 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line194{ width:75px; height:27px; float:left;}
+.line194 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line195{ width:100px; height:27px; float:left;}
+.line195 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line196{ width:135px; height:27px; float:left;}
+.line196 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line197{ width:115px; height:27px; float:left; margin-left:17px;}
+.line197 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line198{ width:70px; height:27px; float:left;}
+.line198 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line199{ width:170px; height:27px; float:left;}
+.line199 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line200{ width:192px; height:27px; float:left; margin-left:17px;}
+.line200 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line201{ width:130px; height:27px; float:left; margin-left:17px; margin-right:2px;}
+.line201 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line202{ width:114px; height:27px; float:left; margin-left:17px;}
+.line202 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line203{ width:170px; height:82px; float:left;}
+.line203 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line204{ width:356px; height:82px; float:left; margin-left:10px;}
+.line205{ width:130px; height:27px; float:left;}
+.line205 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line206{ width:85px; height:27px; float:left;}
+.line206 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line207{ width:50px; height:27px; float:left;}
+.line207 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line208{ width:140px; height:27px; float:left;}
+.line208 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line209{ width:105px; height:27px; float:left; margin-left:17px; margin-right:2px;}
+.line209 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line210{ width:360px; height:27px; float:left;}
+.line211{ width:112px; height:27px; float:left; margin-left:5px;}
+.line212{ width:140px; height:82px; float:left;}
+.line212 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line213{ width:744px; height:82px; float:left;}
+.line214{ width:245px; height:27px; float:left;}
+.line214 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line215{ width:30px; height:27px; float:left;}
+.line215 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line216{ width:90px; height:27px; float:left;}
+.line216 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line217{ width:50px; height:27px; float:left;}
+.line217 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line218{ width:135px; height:82px; float:left;}
+.line218 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line219{ width:700px; height:82px; float:left;}
+.line218{ width:75px; height:27px; float:left;}
+.line218 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:8px;}
+.line219{ width:115px; height:27px; float:left; margin-left:195px;}
+.line219 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line220{ width:130px; height:27px; float:left; margin-left:17px;}
+.line220 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line221{ width:50px; height:27px; float:left;}
+.line222{ width:50px; height:27px; float:left; margin-left:17px;}
+.line222 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line224{ width:130px; height:27px; float:left;}
+.line224 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+.line225{ width:810px; height:160px; float:left;}
+
+
+.imprimirimagen{ height:953px; width:684px; background-image:url("../img/imgsolicitud.png"); margin:0 auto 0 auto; margin-top:10px;}
+.impcotizacion{ height:1295px; width:648px; background-image:url("../img/imgcotizacion.png"); margin:0 auto 0 auto; margin-top:10px;}
+
+.baretiqueta{ width:903px; height:139px; float:left; margin-top:12px;}
+.baretiquetados{ width:903px; height:139px; float:left; margin-top:12px; margin-bottom:12px;}
+.baretiquetaconte{ width:613px; height:139px; margin: 0 auto 0 auto;}
+.imaetiqueta{ width:301px; height:139px; float:left; margin-right:11px;}
+.imaetiqueta1{ width:301px; height:139px; float:left;}
+
+
+
+.bordeimput{ border: 1px solid #A5ACB2; font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+.btns1{ width:86px; height:27px; float:left; margin-left:6px;}
+
+.btns1movi{ width:86px; height:27px; float:left; margin-left:436px;}
+.btns1small{ width:86px; height:27px; float:left; margin-left:5px;}
+
+.btns2{ width:86px; height:27px; float:left;}
+.btns3{ width:86px; height:27px; float:left; margin-left:6px;}
+.btns4{ width:86px; height:27px; float:left; margin-top:14px;}
+.btns4normal{ width:86px; height:27px; float:left; margin-left:5px;}
+.btns5{ width:86px; height:27px; float:right; margin-right:34px;}
+.btns2almacen{ width:137px; height:27px; float:left;}
+
+.btnsRegistrarSC{ width:157px; height:27px; float:left; margin-left:6px;}
+.btnsanulacomra{ width:123px; height:27px; float:left; margin-left:6px;}
+
+.btns6{ width:112px; height:27px; float:left; margin-left:576px;}
+.btns7{ width:112px; height:27px; float:left; margin-left:6px;}
+.btns8{ width:86px; height:27px; float:left; margin-left:6px;}
+
+.btnanadir{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnanadir.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btngrabar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btngrabar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btncancelar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btncancelar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnbuscar{ height: 25px; border: 0px; cursor: pointer; width:86px;background-image:url("../img/btnbuscar.png"); color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnmostrar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnmostrar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btngenerar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btngenerar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnlimpiar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnlimpiar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnnuevo{ height: 25px;border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	cursor: pointer; width:86px; background-image:url('../img/btnnuevo.png');  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;
+}
+.btnagregar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btneagregar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnquitar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnquitar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btndesahcer{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btndeshacer.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnmodificar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnmdificar.png");}
+.btnmodificar2{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/en/btn_modify.png");}
+.btnmodificar2{ height: 25px; border: 0px;   margin-left: 0; color: White; text-align: left; font-family: Verdana; font-size: 12px; cursor: pointer; width:86px; background-image:url("/img/btnmodificar.png");}
+
+
+.btnanularcompra{ height: 25px; border: 0px; cursor: pointer; width:123px; background-image:url("../img/btnanularcompra.png");}
+.btneliminar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btneliminar.png");  color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnenviaralmacen{ height: 25px; border: 0px; cursor: pointer; width:137px; background-image:url("../img/btnenviaralmacen.png");}
+.btnSC{ height: 25px; border: 0px; cursor: pointer; width:157px; background-image:url("../img/btnregistrarNuevaSC.png");}
+.btnSIM{ height: 25px; border: 0px; cursor: pointer; width:157px; background-image:url("../img/btnSIM.png");}
+.btns4nuevo{ width:86px; height:27px; float:left; margin-left:5px;}
+.btnver{ height: 25px; border: 0px; cursor: pointer; width:31px; background-image:url("../img/btnver.png");}
+.btnanular{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnanular.png"); color:White; text-align:left; margin-left:0px; font-family:Verdana; font-size:12px;}
+.btnaaprobar{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnaprobar.png");}
+.btnaConfirmarrecepcion{ height: 25px; border: 0px; cursor: pointer; width:157px; background-image:url("../img/btnConfirmarRecepcion.png");}
+
+.generapdf{ height: 25px; border: 0px; cursor: pointer; width:112px; background-image:url("../img/generarpdf.png"); background-repeat:no-repeat;}
+.generaexcel{ height: 25px; border: 0px; cursor: pointer; width:112px; background-image:url("../img/generaexcel.png"); background-repeat:no-repeat;}
+.btnimprimir{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btnimprimir.png"); background-repeat:no-repeat;}
+
+.cajalado{ width:86px; height:45px; float:left; margin-left:6px;}
+.boxper{ width:114px; height:27px; float:left;}
+
+.letra{	font-family:Verdana, Geneva, sans-serif;font-size:10px;	text-align:center;font-weight:bold;color:#FFFFFF;background-image:url("../img/fndheadertable.png");}
+.letra2{font-family:Verdana, Geneva, sans-serif;font-size:12px;	text-align:left;color:#003976; font-weight:normal;}
+
+.letranuevo{font-family:Verdana, Geneva, sans-serif;font-size:10px;	text-align:center;font-weight:bold;color:#FFFFFF;background-image:url("../img/fndheadertable.png"); border-right: 1px solid #003976;}
+.letra3nuevo{font-family:Verdana, Geneva, sans-serif;font-size:10px; text-align:left;color:#333333; font-weight:normal;  border-right: 1px solid #003976;}
+.letranuevo2{font-family:Verdana, Geneva, sans-serif;font-size:10px;	text-align:center;font-weight:bold;color:#FFFFFF;background-image:url("../img/nuevoheadertable.png");border-bottom: 1px solid #003976}
+
+
+.letra3{font-family:Verdana, Geneva, sans-serif;font-size:10px;	text-align:left;color:#333333; font-weight:normal;}
+.letra4{font-family:Verdana, Geneva, sans-serif;font-size:12px;	text-align:left;color:#003976; font-weight:normal;}
+.letra5{font-family:Verdana, Geneva, sans-serif;font-size:12px;	text-align:left;color:#333333; font-weight:normal;}
+
+.gridview{font-family:Verdana, Geneva, sans-serif;font-size:10px;	text-align:left;color:#333333; font-weight:normal; border: 1px solid #003976; margin-left: auto; margin-right: auto;}
+.gridview th{font-family:Verdana, Geneva, sans-serif;font-size:10px;	text-align:center;font-weight:bold;color:#FFFFFF;background-image:url("../img/fndheadertable.png");}
+.gridview td{font-family:Verdana, Geneva, sans-serif;font-size:10px;	text-align:left;color:#333333; font-weight:normal;}
+
+.bordetabla{ border: 1px solid #003976;}
+.paratd{ border-right: 1px solid #003976; border-bottom: 1px solid #003976;}
+.paratd2{border-bottom: 1px solid #003976;}
+.paratd3{ border-right: 1px solid #003976;}
+.paratd4{ border-right: 1px solid #003976; border-bottom: 1px solid #003976;}
+.paratd5{ border-bottom: 1px solid #003976;}
+
+.bordes1{border-left: 1px solid #003976;border-top: 1px solid #003976; border-right: 1px solid #003976; border-bottom: 1px solid #003976;}
+.bordes2{border-left: 1px solid #003976;border-right: 1px solid #003976; border-bottom: 1px solid #003976;}
+
+.alertainferior{ width:960px; height:23px; float:left;}
+.alertainferior p{font-family:Verdana, Geneva, sans-serif; color:#FF0000; font-size:12px; margin:0px; font-weight:normal; margin-top:5px; margin-left:28px}
+
+.ama1{ width:100px; height:27px; float:left;}
+.ama1 p{ font-family:Verdana, Geneva, sans-serif; color:#003976; font-size:12px; margin:0px; font-weight:normal; margin-top:2px; margin-left:8px;}
+
+
+.ocultarBoton{display:none;}
+.letraError{font-family:Verdana, Geneva, sans-serif;font-size:12px;	text-align:left;color:Red; font-weight:normal; margin-left:2px;}
+
+.imgCursor
+{
+	cursor:pointer;
+	border:0;
+	text-decoration:none;
+	}
+	
+a img
+{
+	cursor:pointer;
+	border:0;
+	text-decoration:none;
+	}

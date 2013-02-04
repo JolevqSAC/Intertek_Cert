@@ -1,0 +1,28 @@
+﻿
+
+.contealert{ width:336px; height:152px; margin: 0 auto 0 auto; background-image:url("../img/fndalertas.png")}
+.contealertPregunta{ width:336px; height:152px; margin: 0 auto 0 auto; background-image:url("../img/fndalertaquestion.png")}
+.contealertError{ width:336px; height:152px; margin: 0 auto 0 auto; background-image:url("../img/fnderror.png")}
+
+.boxtext{ width:336px; height:77px; margin-top:40px; float:left;}
+.boxtext2{ width:336px; height:89px; margin-top:32px; float:left;}
+
+.boxdentro{ width:188px; height:77px; margin-left:121px; float:left;}
+.boxdentro2{ width:188px; height:89px; margin-left:121px; float:left;}
+
+.boxletra{ width: 188px; height:48px; float:left;}
+.boxletra p{ font-family:Arial;font-size:14px; color:#003976; text-align:center; margin-top:8px;}
+
+.boxletra2{ width: 188px; height:64px; float:left;}
+.boxletra2 p{ font-family:Arial;font-size:14px; color:#003976; text-align:center; margin-top:6px;}
+
+.boxbtn{ width:188px; height:25px; float:left;}
+.centerclose{ width:86px; height:24px; margin:0 auto 0 auto;}
+.btncerraralert{ height: 25px; border: 0px; cursor: pointer; width:86px; background-image:url("../img/btncerraralert.png");  color:White; text-align:left; margin-left:0px;font-family:Verdana; font-size:13px;}
+
+.btnsi{ height: 25px; border: 0px; cursor: pointer; width:31px; background-image:url("../img/btnsi.png"); color:White; text-align:left; margin-left:0px;font-family:Verdana; font-size:12px;}
+.btnno{ height: 25px; border: 0px; cursor: pointer; width:31px; background-image:url("../img/btnno.png");  color:White; text-align:left; margin-left:0px;font-family:Verdana; font-size:12px;}
+
+.tonsi{ width:31px; height:25px; float:left; margin-left:10px;}
+.tonno{ width:31px; height:25px; float:left; margin-left:10px;}
+
